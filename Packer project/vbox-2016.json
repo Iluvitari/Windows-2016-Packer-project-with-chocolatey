@@ -1,0 +1,60 @@
+{
+  "builders": [
+    {
+      "type": "virtualbox-iso",
+      "vboxmanage": [
+        [ "modifyvm", "{{.Name}}", "--memory", "2048" ],
+        [ "modifyvm", "{{.Name}}", "--vram", "48" ],
+        [ "modifyvm", "{{.Name}}", "--cpus", "2" ]
+      ],
+      "guest_additions_mode": "attach",
+      "guest_os_type": "Windows2016_64",
+      "headless": "true",
+      "iso_url": "iso/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.iso",
+      "iso_checksum": "70721288bbcdfe3239d8f8c0fae55f1f",
+      "iso_checksum_type": "md5",
+      "communicator": "winrm",
+      "winrm_username": "Project",
+      "winrm_password": "Project",
+      "winrm_timeout": "12h",
+      "shutdown_command": "C:/Windows/Panther/Unattend/packer_shutdown.bat",
+      "shutdown_timeout": "15m",
+      "floppy_files": [
+        "answer_files/Autounattend.xml",
+        "scripts/winrm.ps1"
+      ]
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "powershell",
+      "script": "scripts/windows-updates.ps1",
+      "elevated_user": "Project",
+      "elevated_password": "Project"
+    },
+    {
+      "type": "windows-restart",
+      "restart_timeout": "15m"
+    },
+    {
+      "type": "powershell",
+      "execute_command": "powershell -ExecutionPolicy Bypass \"& { {{.Vars}}{{.Path}}; exit $LastExitCode}\"",
+      "scripts": [
+          "enable-rdp.ps1",
+          "guest-tools.ps1"
+      ]
+  },
+    {
+      "type": "powershell",
+      "script": "scripts/after-reboot.ps1",
+      "elevated_user": "Project",
+      "elevated_password": "Project"
+    },
+    {
+      "type": "powershell",
+      "script": "scripts/cleanup.ps1",
+      "elevated_user": "Project",
+      "elevated_password": "Project"
+    }
+  ]
+}
