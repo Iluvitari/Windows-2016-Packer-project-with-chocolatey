@@ -32,4 +32,4 @@ Prerequisites:
   https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016
     - Place iso in the iso folder.
   
-  (For licensed version we wil need to add the key into the autounattend.xml file for installation to function properly)
+  (For licensed version we will need to add the key into the autounattend.xml file for installation to function properly)
