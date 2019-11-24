@@ -23,11 +23,13 @@ WinRM Troubleshooting part 2: https://youtu.be/wIhhHk-mIbs
 Prerequisites:
 - Installation of the latest packer version.
   https://www.packer.io/downloads.html
+    - place packer in the Packer project folder and add to path in windows environment variables.
   
 - VirtualBox latest virstion.
   https://www.virtualbox.org/wiki/Downloads
   
 - Windows 2016 ISO (for this test project I am using 2016 evaluation iso, but will work with a licensed virsion)
   https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016
+    - Place iso in the iso folder.
   
   (For licensed version we wil need to add the key into the autounattend.xml file for installation to function properly)
