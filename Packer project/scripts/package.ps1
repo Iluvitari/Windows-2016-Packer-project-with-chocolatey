@@ -1,6 +1,6 @@
 $ErrorActionPreference = "Stop"
 
-. a:\Test-Command.ps1
+.a:\Test-Command.ps1
 
 Enable-RemoteDesktop
 netsh advfirewall firewall add rule name="Remote Desktop" dir=in localport=3389 protocol=TCP action=allow

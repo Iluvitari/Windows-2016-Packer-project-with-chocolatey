@@ -74,8 +74,8 @@
                     <WillShowUI>OnError</WillShowUI>
                 </ProductKey>
                 <AcceptEula>true</AcceptEula>
-                <FullName>EvansPackerproject</FullName>
-                <Organization>Evan</Organization>
+                <FullName>Project</FullName>
+                <Organization>Project</Organization>
             </UserData>
         </component>
     </settings>  
@@ -108,33 +108,33 @@
       <TimeZone>UTC</TimeZone>
       <UserAccounts>
         <AdministratorPassword>
-          <Value>vagrant</Value>
+          <Value>Project</Value>
           <PlainText>true</PlainText>
         </AdministratorPassword>
         <LocalAccounts>
           <LocalAccount wcm:action="add">
             <Password>
-              <Value>vagrant</Value>
+              <Value>Project</Value>
               <PlainText>true</PlainText>
             </Password>
             <Group>administrators</Group>
-            <DisplayName>Vagrant</DisplayName>
-            <Name>vagrant</Name>
-            <Description>Vagrant User</Description>
+            <DisplayName>Project</DisplayName>
+            <Name>Project</Name>
+            <Description>Project</Description>
           </LocalAccount>
         </LocalAccounts>
       </UserAccounts>
             <AutoLogon>
                 <Password>
-                    <Value>vagrant</Value>
+                    <Value>Project</Value>
                     <PlainText>true</PlainText>
                 </Password>
                 <Enabled>true</Enabled>
-                <Username>vagrant</Username>
+                <Username>Project</Username>
             </AutoLogon>
       <FirstLogonCommands>
         <SynchronousCommand wcm:action="add">
-           <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\winrm.ps1</CommandLine>
+           <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\winrmv2.ps1</CommandLine>
            <Order>1</Order>
         </SynchronousCommand>
       </FirstLogonCommands>
