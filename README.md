@@ -10,7 +10,7 @@ $ packer build -force vbox-2016.json
 --
 
 To do:
-Automate connection to AD with deploymentof GPO policies.
+Automate connection to AD with deployment of GPO policies.
 
 --
 
