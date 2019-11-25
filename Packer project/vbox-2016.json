@@ -39,11 +39,14 @@
       "restart_timeout": "15m"
     },
     {
-      "type": "powershell",
-      "execute_command": "powershell -ExecutionPolicy Bypass \"& { {{.Vars}}{{.Path}}; exit $LastExitCode}\"",
+      "type": "shell",
+      "remote_path": "/tmp/script.bat",
+      "execute_command": "{{.Vars}} cmd /c C:/Windows/Temp/script.bat",
       "scripts": [
-          "enable-rdp.ps1",
-          "guest-tools.ps1"
+        "./scripts/vm-guest-tools.bat",
+        "./scripts/enable-rdp.bat",
+        "./scripts/disable-auto-logon.bat",
+        "./scripts/compact.bat"
       ]
     },
     {
