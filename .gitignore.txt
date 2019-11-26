@@ -1,0 +1,5 @@
+*.iso
+*.exe
+.DS_Store
+/packer_cache/
+output-virtualbox-iso
