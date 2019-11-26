@@ -1,3 +1,5 @@
-
+.DS_Store
+/packer_cache/
+output-virtualbox-iso
 *.ISO
-*.exe
+Packer project/packer.exe
