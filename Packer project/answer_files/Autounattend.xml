@@ -134,6 +134,11 @@
             </AutoLogon>
       <FirstLogonCommands>
         <SynchronousCommand wcm:action="add">
+            <CommandLine>cmd.exe /c a:\microsoft-updates.bat</CommandLine>
+            <Order>98</Order>
+            <Description>Enable Microsoft Updates</Description>
+        </SynchronousCommand>
+        <SynchronousCommand wcm:action="add">
            <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\winrmv2.ps1</CommandLine>
            <Order>1</Order>
         </SynchronousCommand>

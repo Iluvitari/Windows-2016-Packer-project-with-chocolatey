@@ -19,10 +19,11 @@
       "winrm_username": "Project",
       "winrm_password": "Project",
       "winrm_timeout": "12h",
-      "shutdown_command": "C:/Windows/Panther/Unattend/packer_shutdown.bat",
+      "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
       "shutdown_timeout": "15m",
       "floppy_files": [
         "answer_files/Autounattend.xml",
+        "scripts/microsoft-updates.bat",
         "scripts/winrmv2.ps1"
       ]
     }
@@ -39,9 +40,9 @@
       "restart_timeout": "15m"
     },
     {
-      "type": "shell",
-      "remote_path": "/tmp/script.bat",
-      "execute_command": "{{.Vars}} cmd /c C:/Windows/Temp/script.bat",
+      "type": "windows-shell",
+      "remote_path": "C:/Windows/Temp/script.bat",
+      "execute_command": "cmd /c C:/Windows/Temp/script.bat",
       "scripts": [
         "./scripts/vm-guest-tools.bat",
         "./scripts/enable-rdp.bat",
