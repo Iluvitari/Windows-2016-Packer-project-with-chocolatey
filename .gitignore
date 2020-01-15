@@ -3,3 +3,4 @@
 output-virtualbox-iso
 *.ISO
 Packer project/packer.exe
+Packer project/scripts/AD setup/securestring.txt

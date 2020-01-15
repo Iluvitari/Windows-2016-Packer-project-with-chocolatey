@@ -6,7 +6,9 @@
       "vboxmanage": [
         [ "modifyvm", "{{.Name}}", "--memory", "2048" ],
         [ "modifyvm", "{{.Name}}", "--vram", "48" ],
-        [ "modifyvm", "{{.Name}}", "--cpus", "2" ]
+        [ "modifyvm", "{{.Name}}", "--cpus", "2" ],
+        [ "modifyvm", "{{.Name}}", "--nic1", "nat"],
+        [ "modifyvm", "{{.Name}}", "--cableconnected1", "on"]
       ],
       "guest_additions_mode": "attach",
       "guest_os_type": "Windows2016_64",
@@ -40,6 +42,23 @@
       "restart_timeout": "15m"
     },
     {
+        "type": "file",
+        "source": "scripts/AD setup/securestring.txt",
+        "destination": "C:/"
+    },
+    {
+     "type": "powershell",
+      "script": "scripts/AD setup/Network-setup.ps1",
+      "elevated_user": "Project",
+      "elevated_password": "Project"
+    },
+    {
+      "type": "powershell",
+      "script": "scripts/AD setup/Domain-join.ps1",
+      "elevated_user": "Project",
+      "elevated_password": "Project"
+    },
+    {
       "type": "windows-shell",
       "remote_path": "C:/Windows/Temp/script.bat",
       "execute_command": "cmd /c C:/Windows/Temp/script.bat",
@@ -61,6 +80,10 @@
       "script": "scripts/cleanup.ps1",
       "elevated_user": "Project",
       "elevated_password": "Project"
+    },
+    {
+      "type": "windows-restart",
+      "restart_timeout": "15m"
     }
   ]
 }
