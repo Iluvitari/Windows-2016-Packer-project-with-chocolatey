@@ -1,0 +1,135 @@
+2020/03/05 00:06:40 [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:40 Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:40 [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:40 Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+cannot determine if process is in background: Process background check error: not implemented yet
+2020/03/05 00:06:40 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-builder-virtualbox-iso": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:40 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:40 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:40 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-builder-virtualbox-iso"}
+2020/03/05 00:06:40 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-builder-virtualbox-iso"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-shell": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:41 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-provisioner-windows-shell"}
+2020/03/05 00:06:41 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-provisioner-windows-shell"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:41 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2020/03/05 00:06:41 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:41 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2020/03/05 00:06:41 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:41 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2020/03/05 00:06:41 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-windows-restart": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:41 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-provisioner-windows-restart"}
+2020/03/05 00:06:41 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-provisioner-windows-restart"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 Plugin could not be found at C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell (exec: "C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe-PACKERSPACE-plugin-PACKERSPACE-packer-provisioner-powershell": file does not exist). Checking same directory as executable.
+2020/03/05 00:06:41 Current exe path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Creating plugin client for path: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 Starting plugin: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe []string{"C:\\Users\\evinc\\Documents\\GitHub\\Windows-2016-Packer-project-with-chocolatey\\Packer project\\packer.exe", "plugin", "packer-provisioner-powershell"}
+2020/03/05 00:06:41 Waiting for RPC address for: C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe
+2020/03/05 00:06:41 packer.exe plugin: [INFO] Packer version: 1.5.1 [go1.13.5 windows amd64]
+2020/03/05 00:06:41 packer.exe plugin: Attempting to open config file: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\evinc\AppData\Roaming\packer.config
+2020/03/05 00:06:41 packer.exe plugin: Setting cache directory: C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache
+2020/03/05 00:06:41 packer.exe plugin: args: []string{"packer-provisioner-powershell"}
+2020/03/05 00:06:41 packer.exe plugin: Plugin port range: [10000,25000]
+2020/03/05 00:06:41 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Waiting for connection...
+2020/03/05 00:06:41 Received tcp RPC address for C:\Users\evinc\Documents\GitHub\Windows-2016-Packer-project-with-chocolatey\Packer project\packer.exe: addr is 127.0.0.1:10000
+2020/03/05 00:06:41 packer.exe plugin: Serving a plugin connection...
+2020/03/05 00:06:41 ui: Debug mode enabled. Builds will not be parallelized.
+2020/03/05 00:06:41 ui: virtualbox-iso: output will be in this color.
+2020/03/05 00:06:41 ui: 
+2020/03/05 00:06:41 Build debug mode: true
+2020/03/05 00:06:41 Force build: false
+2020/03/05 00:06:41 On error: 
+2020/03/05 00:06:41 Preparing build: virtualbox-iso
+2020/03/05 00:06:41 Debug enabled, so waiting for build to finish: virtualbox-iso
+2020/03/05 00:06:41 Starting build run: virtualbox-iso
+2020/03/05 00:06:41 Running builder: virtualbox-iso
+2020/03/05 00:06:41 [INFO] (telemetry) Starting builder virtualbox-iso
+2020/03/05 00:06:41 packer.exe plugin: [DEBUG] builder/virtualbox: VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+2020/03/05 00:06:41 packer.exe plugin: VBoxManage path: C:\Program Files\Oracle\VirtualBox\VBoxManage.exe
+2020/03/05 00:06:41 packer.exe plugin: VBoxManage --version output: 6.0.14r133895
+2020/03/05 00:06:41 packer.exe plugin: VirtualBox version: 6.0.14
+2020/03/05 00:06:41 packer.exe plugin: guest_additions_url is blank; querying driver for iso.
+2020/03/05 00:06:42 packer.exe plugin: Found Default Guest Additions ISO: C:\Program Files\Oracle\VirtualBox/VBoxGuestAdditions.iso
+2020/03/05 00:06:42 packer.exe plugin: Guest additions URL: C:\Program Files\Oracle\VirtualBox/VBoxGuestAdditions.iso
+2020/03/05 00:06:42 ui: ==> virtualbox-iso: Retrieving Guest additions
+2020/03/05 00:06:42 ui: ==> virtualbox-iso: Trying C:\Program Files\Oracle\VirtualBox/VBoxGuestAdditions.iso
+2020/03/05 00:06:42 packer.exe plugin: Acquiring lock for: file://C:/Program%20Files/Oracle/VirtualBox/VBoxGuestAdditions.iso (C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache\afa7695602909b267b26b23c8aefe12db6ee78b2.iso.lock)
+2020/03/05 00:06:42 ui: ==> virtualbox-iso: Trying file://C:/Program%20Files/Oracle/VirtualBox/VBoxGuestAdditions.iso
+2020/03/05 00:06:42 ui: ==> virtualbox-iso: file://C:/Program%20Files/Oracle/VirtualBox/VBoxGuestAdditions.iso => C:\users\evinc\documents\github\Windows-2016-Packer-project-with-chocolatey\Packer project\packer_cache\afa7695602909b267b26b23c8aefe12db6ee78b2.iso
+2020/03/05 00:06:42 packer.exe plugin: Leaving retrieve loop for Guest additions
+2020/03/05 00:06:42 ui: ask: ==> virtualbox-iso: Pausing after run of step 'StepDownloadGuestAdditions'. Press enter to continue.
