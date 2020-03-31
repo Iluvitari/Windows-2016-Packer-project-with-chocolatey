@@ -66,9 +66,11 @@
     },
     {
       "type": "windows-shell",
-      "script": "scripts/AD setup/Domain-join.bat",
-      "elevated_user": "./Project",
-      "elevated_password": "./Project"
+      "remote_path": "C:/Windows/Temp/scriptdomain.bat",
+      "execute_command": "cmd /c C:/Windows/Temp/scriptdomain.bat",
+      "scripts": [
+        "./scripts/AD setup/Domain-join.bat"
+      ]
     }
   ]
 }
