@@ -45,6 +45,10 @@
       ]
     },
     {
+      "type": "windows-restart",
+      "restart_timeout": "15m"
+    },
+    {
       "type": "powershell",
       "script": "scripts/after-reboot.ps1",
       "elevated_user": "./Project",
@@ -61,10 +65,10 @@
       "restart_timeout": "15m"
     },
     {
-      "type": "powershell",
+      "type": "windows-shell",
       "script": "scripts/AD setup/Domain-join.bat",
-      "elevated_user": "/Project",
-      "elevated_password": "/Project"
+      "elevated_user": "./Project",
+      "elevated_password": "./Project"
     }
   ]
 }
