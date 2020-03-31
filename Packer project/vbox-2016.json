@@ -62,9 +62,9 @@
     },
     {
       "type": "powershell",
-      "script": "scripts/AD setup/Domain-join.ps1",
-      "elevated_user": "Project",
-      "elevated_password": "Project"
+      "script": "scripts/AD setup/Domain-join.bat",
+      "elevated_user": "/Project",
+      "elevated_password": "/Project"
     }
   ]
 }
